@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-vue3-js",
+  "name": "my-portfolio",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -24,6 +24,7 @@
     "postcss": "^8.4.12",
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.10",
+    "unplugin-vue-components": "^0.19.5",
     "vite": "^2.9.6"
   }
 }
