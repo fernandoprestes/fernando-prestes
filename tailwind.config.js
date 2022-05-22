@@ -12,6 +12,8 @@ module.exports = {
         'bg-cards': '#302F3D',
         'tech-js': '#E7DE79',
         'tech-vue': '#5FDD5C',
+        'tech-html': '#E77979',
+        'tech-css': '#7991E7',
       },
     },
   },
