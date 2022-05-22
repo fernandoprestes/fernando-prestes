@@ -1,5 +1,7 @@
 <script setup>
   import { githubData } from '../../server/api';
+  import Icon from '../../components/Icon/index.vue';
+
   const TECHNOLOGIES = {
     js: 'JavaScript',
     vue: 'VueJs',
@@ -24,7 +26,7 @@
         </v-card>
         <v-card class="h-full space-y-4">
           <div class="flex items-center gap-2">
-            <icon name="Github" />
+            <Icon name="Github" />
             <a
               href="https://github.com/fernandoprestes"
               target="_blank"
@@ -33,7 +35,7 @@
             >
           </div>
           <div class="flex items-center gap-2">
-            <icon name="Linkedin" />
+            <Icon name="Linkedin" />
             <a
               href="https://www.linkedin.com/in/fernandoprestes/"
               target="_blank"
@@ -64,7 +66,7 @@
               :href="item.link"
               target="_blank"
             >
-              <icon name="Folder" />
+              <Icon name="Folder" />
               <h2 class="font-bold">{{ item.name }}</h2>
             </a>
 
