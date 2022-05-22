@@ -1,6 +1,6 @@
 <script setup>
   import { githubData } from '../../server/api';
-  import Icon from './../../components/Icon/index.vue';
+  import Icon from './../../components/Icon/Icon.vue';
 
   const TECHNOLOGIES = {
     js: 'JavaScript',
