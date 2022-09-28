@@ -166,4 +166,15 @@
       </v-card>
     </div>
   </div>
+  <div class="mt-10 w-full bg-brand-color-100 py-8 text-center text-brand-color">
+    <p>
+      2022 -
+      <a
+        href="https://github.com/fernandoprestes"
+        class="hover:text-white"
+      >
+        github/fernandoprestes
+      </a>
+    </p>
+  </div>
 </template>
