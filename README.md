@@ -1,6 +1,6 @@
-# Template de projeto Vue3
+# Desafio Portfolio - Rocketseat
 
-Este repositório serve como um template para projetos SPA com vite e vue3:
+Neste desafio foi desenvolvido uma página web para que seja meu portfolio de projetos, utilizando o framework Vue e Tailwindcss.
 
 ## Tecnologias
 
@@ -23,8 +23,8 @@ Este repositório serve como um template para projetos SPA com vite e vue3:
   - `icon`: Componentes de icon
 - `pages/`: Paginas da aplicação
   - `Home`: Pagina principal `("/")`
-  - `About`: Pagina secundaria `("/about")`
 - `router`: Rotas das pages
+- `server`: API Mock
 - `tailwind.config.js`: Configurações do tailwind
 - `vite.config.js`: Configurações do vite
 
@@ -42,9 +42,6 @@ $ yarn dev
 ## Extensões recomendadas para o VScode
 
 - [VSCode](https://code.visualstudio.com/)
-- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-- [Vue 3 Support - All In One](https://marketplace.visualstudio.com/items?itemName=Wscats.vue)
-- [Vue](https://marketplace.visualstudio.com/items?itemName=znck.vue)
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Tailwindcss](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
